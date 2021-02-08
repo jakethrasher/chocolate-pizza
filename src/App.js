@@ -1,5 +1,6 @@
 import './App.css';
 import React from 'react';
+import WonderfulHeader from './header';
 
 // function App() {
 //   return (
@@ -27,7 +28,7 @@ export default class App extends React.Component{
   render (){
     return(
       <div>
-      <h1>hello!</h1>
+      <WonderfulHeader/>
     </div>
     )
    
