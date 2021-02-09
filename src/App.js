@@ -2,7 +2,7 @@ import './App.css';
 import React from 'react';
 import WonderfulHeader from './header';
 import Image from './image';
-import Recipe from './recipe';
+import IngredientList from './recipe';
 
 
 export default class App extends React.Component{
@@ -11,10 +11,9 @@ export default class App extends React.Component{
     <div>
         <WonderfulHeader/>
         <Image/>
-        <Recipe/>
+        <IngredientList/>
     </div>
     )
    
   }
 }
-
