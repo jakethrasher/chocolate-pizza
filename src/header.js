@@ -24,15 +24,18 @@ export default class WonderfulHeader extends React.Component{
                 src: "rss-icon.png",
             },
             {
-                id: 5,
+                id: 6,
                 src: "pint-icon.png",
             },
             {
-                id: 5,
+                id: 7,
                 src: "twit-icon.png",
             }
         ]
-
+       const buttonIcons = buttons.map((button)=>(
+            <ButtonList key={button.id} src={button.src}/>
+        ))
+        
         return (
             <header className="header">
                 <div>
@@ -41,9 +44,9 @@ export default class WonderfulHeader extends React.Component{
                 </div>
 
                 <ul className="button-container">
-                    {buttons.map((button)=>(
-                        <ButtonList key={button.id} src={button.src}/>
-                    ))}
+
+                   {buttonIcons}
+
                 </ul>
             </header>
         )
