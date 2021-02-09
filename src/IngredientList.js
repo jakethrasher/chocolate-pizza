@@ -52,7 +52,13 @@ export default class IngredientList extends React.Component {
         return (
             <div className="ingredients" style={{ backgroundImage: 'url(./list-bg.png)' }}
             >
-               
+               <IngredientItem amount="1 1/cups" name="milk"/>
+               <IngredientItem amount="1/2 cup" name="mascarpone"/>
+               <IngredientItem amount="1/2 tsp" name="pink salt"/>
+               <IngredientItem amount="1lb" name="black mission figs"/>
+               <IngredientItem amount="1/2 cup" name="brown sugar"/>
+               <IngredientItem amount="2 to 4 tbsp" name="water"/>
+               <IngredientItem amount="1 1/2 cup" name="heavy cream"/>
 
 
             </div>

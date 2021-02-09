@@ -5,8 +5,8 @@ export default class IngredientItem extends React.Component{
         return (
             <div>
                 <label>
-                {this.props.amount}{this.props.name}
                 <input type="checkbox"/>
+                {this.props.amount}{this.props.name}
                 </label>
             </div>
         )
