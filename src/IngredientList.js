@@ -48,7 +48,12 @@ export default class IngredientList extends React.Component {
             <div className="ingredients" style={{ backgroundImage: 'url(./list-bg.png)' }}
             >
                 <ul>
-                {ingredientArray.map((item)=>(<IngredientItem  key={item.id} amount={item.amount} name = {item.name}/>)
+                {ingredientArray.map((item)=>(
+                <IngredientItem  
+                    key={item.id}
+                    amount={item.amount} 
+                    name = {item.name}
+                />)
                 )}
                 </ul>
             </div>
